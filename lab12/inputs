@@ -1,0 +1,42 @@
+1 4
+b 10
+f 5
+r
+b 3
+
+1 6
+f 5
+b 10
+i 7
+d
+i 13
+i 1
+
+2
+xxx!
+Abc,d; EF-gh.
+
+3 2
+Xy, ABC, ab, abc,
+xY, ab - ab.
+
+1 7
+b 10
+f 20
+b 30
+d
+f 40
+r
+d
+
+1 10
+b 10
+f 5
+i 5
+i 7
+b 20
+i 30
+r
+d
+r
+i 1

@@ -1,0 +1,90 @@
+1
+14
+p 10
+p 20
+p 5
+p 3
+p 15
+i 0 30
+i 4 40
+i 7 50
+e 4
+v 10
+e 4
+v 20
+r 6
+f
+
+2
+10
+p a
+p X
+p k
+p i
+p y
+p R
+i 1 t
+i 3 G
+i 5 E
+d
+
+3
+8
+p 23 Dominik Adamczyk
+p 27 Natalia Adamiak
+p 24 Marcin Chudy
+i 1 29 Anna Cichocka
+i 4 22 Natalia Deyna
+i 0 24 Marcin Bereta
+d
+s
+
+1
+14
+p 10
+i 0 30
+3 2 40
+p 20
+p 5
+s
+p 3
+e 4
+p 15
+i 3 50
+v 20
+r 10
+p 12
+f
+
+2
+14
+p a
+p X
+p k
+s
+p i
+p y
+e 2
+p R
+f
+i 1 t
+i 3 G
+v x
+i 5 E
+d
+
+3
+13
+p 23 Dominik Adamczyk
+p 23 Ewelina Adamiak
+p 25 Jan Augustyn
+p 24 Kacper Augustyn
+p 23 Ewelina Badeja
+i 0 22 Jakub Barber
+i 1 24 Kacper Barczyński
+i 3 24 Dorota Bujak
+e 1
+v 24 Kacper Augustyn
+d
+f
+s

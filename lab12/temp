@@ -1,0 +1,194 @@
+list_template.c: In function ‘init_list’:
+list_template.c:43:22: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   43 | void init_list(List *p_list, ConstDataFp dump_data, DataFp free_data,
+      |                ~~~~~~^~~~~~
+list_template.c:43:42: warning: unused parameter ‘dump_data’ [-Wunused-parameter]
+   43 | void init_list(List *p_list, ConstDataFp dump_data, DataFp free_data,
+      |                              ~~~~~~~~~~~~^~~~~~~~~
+list_template.c:43:60: warning: unused parameter ‘free_data’ [-Wunused-parameter]
+   43 | void init_list(List *p_list, ConstDataFp dump_data, DataFp free_data,
+      |                                                     ~~~~~~~^~~~~~~~~
+list_template.c:44:31: warning: unused parameter ‘compare_data’ [-Wunused-parameter]
+   44 |                 CompareDataFp compare_data, DataFp modify_data) {
+      |                 ~~~~~~~~~~~~~~^~~~~~~~~~~~
+list_template.c:44:52: warning: unused parameter ‘modify_data’ [-Wunused-parameter]
+   44 |                 CompareDataFp compare_data, DataFp modify_data) {
+      |                                             ~~~~~~~^~~~~~~~~~~
+list_template.c: In function ‘dump_list’:
+list_template.c:48:28: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   48 | void dump_list(const List* p_list) {
+      |                ~~~~~~~~~~~~^~~~~~
+list_template.c: In function ‘dump_list_if’:
+list_template.c:52:25: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   52 | void dump_list_if(List *p_list, void *data) {
+      |                   ~~~~~~^~~~~~
+list_template.c:52:39: warning: unused parameter ‘data’ [-Wunused-parameter]
+   52 | void dump_list_if(List *p_list, void *data) {
+      |                                 ~~~~~~^~~~
+list_template.c: In function ‘free_element’:
+list_template.c:56:26: warning: unused parameter ‘free_data’ [-Wunused-parameter]
+   56 | void free_element(DataFp free_data, ListElement *to_delete) {
+      |                   ~~~~~~~^~~~~~~~~
+list_template.c:56:50: warning: unused parameter ‘to_delete’ [-Wunused-parameter]
+   56 | void free_element(DataFp free_data, ListElement *to_delete) {
+      |                                     ~~~~~~~~~~~~~^~~~~~~~~
+list_template.c: In function ‘push_front’:
+list_template.c:65:23: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   65 | void push_front(List *p_list, void *data){
+      |                 ~~~~~~^~~~~~
+list_template.c:65:37: warning: unused parameter ‘data’ [-Wunused-parameter]
+   65 | void push_front(List *p_list, void *data){
+      |                               ~~~~~~^~~~
+list_template.c: In function ‘push_back’:
+list_template.c:69:22: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   69 | void push_back(List *p_list, void *data) {
+      |                ~~~~~~^~~~~~
+list_template.c:69:36: warning: unused parameter ‘data’ [-Wunused-parameter]
+   69 | void push_back(List *p_list, void *data) {
+      |                              ~~~~~~^~~~
+list_template.c: In function ‘pop_front’:
+list_template.c:73:22: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   73 | void pop_front(List *p_list) {
+      |                ~~~~~~^~~~~~
+list_template.c: In function ‘reverse’:
+list_template.c:77:20: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   77 | void reverse(List *p_list) {
+      |              ~~~~~~^~~~~~
+list_template.c: In function ‘find_insertion_point’:
+list_template.c:81:47: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   81 | ListElement* find_insertion_point(const List *p_list, ListElement *p_element) {
+      |                                   ~~~~~~~~~~~~^~~~~~
+list_template.c:81:68: warning: unused parameter ‘p_element’ [-Wunused-parameter]
+   81 | ListElement* find_insertion_point(const List *p_list, ListElement *p_element) {
+      |                                                       ~~~~~~~~~~~~~^~~~~~~~~
+list_template.c: In function ‘push_after’:
+list_template.c:85:23: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   85 | void push_after(List *p_list, void *data, ListElement *previous) {
+      |                 ~~~~~~^~~~~~
+list_template.c:85:37: warning: unused parameter ‘data’ [-Wunused-parameter]
+   85 | void push_after(List *p_list, void *data, ListElement *previous) {
+      |                               ~~~~~~^~~~
+list_template.c:85:56: warning: unused parameter ‘previous’ [-Wunused-parameter]
+   85 | void push_after(List *p_list, void *data, ListElement *previous) {
+      |                                           ~~~~~~~~~~~~~^~~~~~~~
+list_template.c: In function ‘insert_in_order’:
+list_template.c:89:28: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+   89 | void insert_in_order(List *p_list, void *p_data) {
+      |                      ~~~~~~^~~~~~
+list_template.c:89:42: warning: unused parameter ‘p_data’ [-Wunused-parameter]
+   89 | void insert_in_order(List *p_list, void *p_data) {
+      |                                    ~~~~~~^~~~~~
+list_template.c: In function ‘dump_int’:
+list_template.c:97:27: warning: unused parameter ‘d’ [-Wunused-parameter]
+   97 | void dump_int(const void *d) {
+      |               ~~~~~~~~~~~~^
+list_template.c: In function ‘free_int’:
+list_template.c:100:21: warning: unused parameter ‘d’ [-Wunused-parameter]
+  100 | void free_int(void *d) {
+      |               ~~~~~~^
+list_template.c: In function ‘cmp_int’:
+list_template.c:103:25: warning: unused parameter ‘a’ [-Wunused-parameter]
+  103 | int cmp_int(const void *a, const void *b) {
+      |             ~~~~~~~~~~~~^
+list_template.c:103:40: warning: unused parameter ‘b’ [-Wunused-parameter]
+  103 | int cmp_int(const void *a, const void *b) {
+      |                            ~~~~~~~~~~~~^
+list_template.c: In function ‘create_data_int’:
+list_template.c:106:26: warning: unused parameter ‘v’ [-Wunused-parameter]
+  106 | int *create_data_int(int v) {
+      |                      ~~~~^
+list_template.c: In function ‘dump_word’:
+list_template.c:116:29: warning: unused parameter ‘d’ [-Wunused-parameter]
+  116 | void dump_word (const void *d) {
+      |                 ~~~~~~~~~~~~^
+list_template.c: In function ‘free_word’:
+list_template.c:119:22: warning: unused parameter ‘d’ [-Wunused-parameter]
+  119 | void free_word(void *d) {
+      |                ~~~~~~^
+list_template.c: In function ‘cmp_word_alphabet’:
+list_template.c:122:35: warning: unused parameter ‘a’ [-Wunused-parameter]
+  122 | int cmp_word_alphabet(const void *a, const void *b) {
+      |                       ~~~~~~~~~~~~^
+list_template.c:122:50: warning: unused parameter ‘b’ [-Wunused-parameter]
+  122 | int cmp_word_alphabet(const void *a, const void *b) {
+      |                                      ~~~~~~~~~~~~^
+list_template.c: In function ‘cmp_word_counter’:
+list_template.c:125:34: warning: unused parameter ‘a’ [-Wunused-parameter]
+  125 | int cmp_word_counter(const void *a, const void *b) {
+      |                      ~~~~~~~~~~~~^
+list_template.c:125:49: warning: unused parameter ‘b’ [-Wunused-parameter]
+  125 | int cmp_word_counter(const void *a, const void *b) {
+      |                                     ~~~~~~~~~~~~^
+list_template.c: In function ‘modify_word’:
+list_template.c:128:24: warning: unused parameter ‘p’ [-Wunused-parameter]
+  128 | void modify_word(void *p) {
+      |                  ~~~~~~^
+list_template.c: In function ‘create_data_word’:
+list_template.c:131:36: warning: unused parameter ‘string’ [-Wunused-parameter]
+  131 | void *create_data_word(const char *string, int counter) {
+      |                        ~~~~~~~~~~~~^~~~~~
+list_template.c:131:48: warning: unused parameter ‘counter’ [-Wunused-parameter]
+  131 | void *create_data_word(const char *string, int counter) {
+      |                                            ~~~~^~~~~~~
+list_template.c: In function ‘stream_to_list’:
+list_template.c:138:27: warning: unused parameter ‘p_list’ [-Wunused-parameter]
+  138 | void stream_to_list(List *p_list, FILE *stream, CompareDataFp cmp) {
+      |                     ~~~~~~^~~~~~
+list_template.c:138:41: warning: unused parameter ‘stream’ [-Wunused-parameter]
+  138 | void stream_to_list(List *p_list, FILE *stream, CompareDataFp cmp) {
+      |                                   ~~~~~~^~~~~~
+list_template.c:138:63: warning: unused parameter ‘cmp’ [-Wunused-parameter]
+  138 | void stream_to_list(List *p_list, FILE *stream, CompareDataFp cmp) {
+      |                                                 ~~~~~~~~~~~~~~^~~
+list_template.c: In function ‘main’:
+list_template.c:194:42: error: ‘dump_word_lowercase’ undeclared (first use in this function)
+  194 |                         init_list(&list, dump_word_lowercase, free_word, NULL, modify_word);
+      |                                          ^~~~~~~~~~~~~~~~~~~
+list_template.c:194:42: note: each undeclared identifier is reported only once for each function it appears in
+list_template.c: In function ‘find_insertion_point’:
+list_template.c:82:1: warning: control reaches end of non-void function [-Wreturn-type]
+   82 | }
+      | ^
+list_template.c: In function ‘cmp_int’:
+list_template.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+list_template.c: In function ‘create_data_int’:
+list_template.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+  107 | }
+      | ^
+list_template.c: In function ‘cmp_word_alphabet’:
+list_template.c:123:1: warning: control reaches end of non-void function [-Wreturn-type]
+  123 | }
+      | ^
+list_template.c: In function ‘cmp_word_counter’:
+list_template.c:126:1: warning: control reaches end of non-void function [-Wreturn-type]
+  126 | }
+      | ^
+list_template.c: In function ‘create_data_word’:
+list_template.c:132:1: warning: control reaches end of non-void function [-Wreturn-type]
+  132 | }
+      | ^
+list_template.c: In function ‘list_test’:
+list_template.c:146:17: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  146 |                 scanf(" %c", &op);
+      |                 ^~~~~~~~~~~~~~~~~
+list_template.c:149:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  149 |                                 scanf("%d", &v);
+      |                                 ^~~~~~~~~~~~~~~
+list_template.c:153:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  153 |                                 scanf("%d", &v);
+      |                                 ^~~~~~~~~~~~~~~
+list_template.c:163:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  163 |                                 scanf("%d", &v);
+      |                                 ^~~~~~~~~~~~~~~
+list_template.c: In function ‘main’:
+list_template.c:177:9: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  177 |         scanf ("%d", &to_do);
+      |         ^~~~~~~~~~~~~~~~~~~~
+list_template.c:180:25: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  180 |                         scanf("%d",&n);
+      |                         ^~~~~~~~~~~~~~
+list_template.c:193:25: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  193 |                         scanf("%d",&n);
+      |                         ^~~~~~~~~~~~~~

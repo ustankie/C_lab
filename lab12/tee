@@ -1,0 +1,52 @@
+list_template.c: In function ‘main’:
+list_template.c:194:42: error: ‘dump_word_lowercase’ undeclared (first use in this function)
+  194 |                         init_list(&list, dump_word_lowercase, free_word, NULL, modify_word);
+      |                                          ^~~~~~~~~~~~~~~~~~~
+list_template.c:194:42: note: each undeclared identifier is reported only once for each function it appears in
+list_template.c: In function ‘find_insertion_point’:
+list_template.c:82:1: warning: control reaches end of non-void function [-Wreturn-type]
+   82 | }
+      | ^
+list_template.c: In function ‘cmp_int’:
+list_template.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+list_template.c: In function ‘create_data_int’:
+list_template.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+  107 | }
+      | ^
+list_template.c: In function ‘cmp_word_alphabet’:
+list_template.c:123:1: warning: control reaches end of non-void function [-Wreturn-type]
+  123 | }
+      | ^
+list_template.c: In function ‘cmp_word_counter’:
+list_template.c:126:1: warning: control reaches end of non-void function [-Wreturn-type]
+  126 | }
+      | ^
+list_template.c: In function ‘create_data_word’:
+list_template.c:132:1: warning: control reaches end of non-void function [-Wreturn-type]
+  132 | }
+      | ^
+list_template.c: In function ‘list_test’:
+list_template.c:146:17: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  146 |                 scanf(" %c", &op);
+      |                 ^~~~~~~~~~~~~~~~~
+list_template.c:149:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  149 |                                 scanf("%d", &v);
+      |                                 ^~~~~~~~~~~~~~~
+list_template.c:153:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  153 |                                 scanf("%d", &v);
+      |                                 ^~~~~~~~~~~~~~~
+list_template.c:163:33: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  163 |                                 scanf("%d", &v);
+      |                                 ^~~~~~~~~~~~~~~
+list_template.c: In function ‘main’:
+list_template.c:177:9: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  177 |         scanf ("%d", &to_do);
+      |         ^~~~~~~~~~~~~~~~~~~~
+list_template.c:180:25: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  180 |                         scanf("%d",&n);
+      |                         ^~~~~~~~~~~~~~
+list_template.c:193:25: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  193 |                         scanf("%d",&n);
+      |                         ^~~~~~~~~~~~~~
